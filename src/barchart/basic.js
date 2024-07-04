@@ -6,7 +6,6 @@ function generate_years() {
     for (let i = 0; i < 10; i++) {
         arr[i] = i + 2015;
     }
-    console.log(arr)
     return arr
 }
 
@@ -16,7 +15,6 @@ function generate_data() {
         let number = Math.random() * 1000
         arr[i] = parseInt(number.toString(10));
     }
-    console.log(arr)
     return arr
 }
 
