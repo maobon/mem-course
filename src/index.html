@@ -7,20 +7,26 @@
     <script src="/node_modules/frappe-gantt/dist/frappe-gantt.js"></script>
     <link rel="stylesheet" href="/node_modules/frappe-gantt/dist/frappe-gantt.css">
 </head>
+
 <body>
-
 <!-- EChart -->
-<!--<div id="main" style="width: 600px;height:400px;"></div>-->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="module" src="barchart/barchart.js"></script>
 
-<!--<script type="module" src="barchart/barchart.js"></script>-->
-<!--<script type="module" src="circlechart/circlechart.js"></script>-->
-<!--<script type="module" src="linechart/linechart.js"></script>-->
+<div id="main2" style="width: 600px;height:400px;"></div>
+<script type="module" src="circlechart/circlechart.js"></script>
 
-<!-- Gannt -->
+<div id="main3" style="width: 600px;height:400px;"></div>
+<script type="module" src="linechart/linechart.js"></script>
+
+<!-- Gannt Chart -->
 <div style="width: 1000px;height:600px;">
     <svg id="gantt"></svg>
 </div>
 <script type="module" src="gantt/gantt.js"></script>
+
+<!-- Relation Chart -->
+
 
 </body>
 </html>
